@@ -253,9 +253,9 @@ cp -r dir1 dir2
 rm -r dir2
 
 # create file
-# touch file1.txt
-# touch file1.txt file3.txt
-# touch dir1/{file4.txt,file3.txt}
+touch file1.txt
+touch file1.txt file3.txt
+touch dir1/{file4.txt,file3.txt}
 touch dir1/file1.txt
 cp dir1/file1.txt dir1/file2.txt
 mv dir1/file2.txt dir1/file3.txt
